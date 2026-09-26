@@ -1,0 +1,47 @@
+{
+  "baseUrl": "https://t66y.com",
+  "proxy": "",
+  "accounts": [
+    {
+      "name": "账号1",
+      "cookie": "在此粘贴你的 Cookie"
+    }
+  ],
+  "checkin": {
+    "cron": "30 8 * * *"
+  },
+  "reply": {
+    "boardFid": 8,
+    "maxPerDay": 10,
+    "intervalSeconds": 1024,
+    "cron": "0 9 * * *",
+    "messages": [
+      "感谢楼主分享,好人一生平安",
+      "楼主辛苦了,顶一个",
+      "不错不错,支持一下",
+      "1024,好人一生平安",
+      "感谢分享,收藏了",
+      "路过支持,楼主好人",
+      "这个必须顶,感谢楼主",
+      "好帖,mark 一下慢慢看"
+    ]
+  },
+  "monitor": {
+    "boardFid": 8,
+    "intervalSeconds": 300,
+    "keywords": []
+  },
+  "notify": {
+    "telegram": {
+      "botToken": "",
+      "chatId": ""
+    },
+    "bark": {
+      "key": "",
+      "server": "https://api.day.app"
+    },
+    "serverchan": {
+      "sendKey": ""
+    }
+  }
+}

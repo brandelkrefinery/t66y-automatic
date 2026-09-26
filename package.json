@@ -1,0 +1,53 @@
+{
+  "name": "t66y-automatic",
+  "version": "1.0.0",
+  "description": "草榴社区 t66y(1024)自动化工具:自动签到、自动回帖、新帖监控与消息推送,多账号支持,Node.js 命令行工具",
+  "keywords": [
+    "t66y",
+    "1024",
+    "草榴",
+    "草榴社区",
+    "caoliu",
+    "CL社区",
+    "小草",
+    "自动签到",
+    "自动回帖",
+    "签到脚本",
+    "1024签到",
+    "新手上路",
+    "上岛",
+    "t66y-automatic",
+    "automation",
+    "bot",
+    "nodejs",
+    "cli"
+  ],
+  "homepage": "https://github.com/brandelkrefinery/t66y-automatic#readme",
+  "bugs": "https://github.com/brandelkrefinery/t66y-automatic/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandelkrefinery/t66y-automatic.git"
+  },
+  "license": "MIT",
+  "author": "brandelkrefinery",
+  "type": "commonjs",
+  "bin": {
+    "t66y": "./index.js"
+  },
+  "main": "src/api.js",
+  "scripts": {
+    "start": "node index.js run",
+    "checkin": "node index.js checkin",
+    "reply": "node index.js reply",
+    "monitor": "node index.js monitor",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "node-cron": "^3.0.3",
+    "undici": "^6.19.0"
+  }
+}
