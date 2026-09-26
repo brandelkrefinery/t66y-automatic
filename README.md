@@ -44,14 +44,17 @@
 
 ### macOS 一键安装(三步,复制粘贴即可)
 
+
+1. 安装 Xcode 命令行工具(如已安装会提示,忽略即可)
 ```bash
-# 1. 安装 Xcode 命令行工具(如已安装会提示,忽略即可)
 xcode-select --install
-
-# 2. 安装 Node.js —— 前往 https://nodejs.org/en/download 下载,或使用 nvm:
+```
+2. 安装 Node.js —— 前往 https://nodejs.org/en/download 下载,或使用 nvm:
+```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash && nvm install --lts
-
-# 3. 一条命令安装 t66y-automatic
+```
+3. 一条命令安装 t66y-automatic
+```bash
 mkdir -p 't66y' && cd 't66y' && npm install github:brandelkrefinery/t66y-automatic
 ```
 
