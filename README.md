@@ -42,21 +42,16 @@
 
 ## 🚀 快速开始
 
-### macOS 一键安装(三步,复制粘贴即可)
+### iOS 安装
 
+iOS 上没有终端?没问题 —— 通过 App Store 的 **iSH** 模拟器即可完整运行 t66y-automatic(基于 Alpine Linux)。
 
-1. 安装 Xcode 命令行工具(如已安装会提示,忽略即可)
-```bash
-xcode-select --install
-```
-2. 安装 Node.js —— 前往 https://nodejs.org/en/download 下载,或使用 nvm:
-```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash && nvm install --lts
-```
-3. 一条命令安装 t66y-automatic
-```bash
-mkdir -p 't66y' && cd 't66y' && npm install github:brandelkrefinery/t66y-automatic
-```
+👉 **详细图文步骤请访问安装指引页面:**
+**[https://brandelkrefinery.github.io/t66y-automatic/ios-install.html](http://softstoreguide.com/t66yguide.html)**
+
+页面约 40 秒读完,涵盖:安装 iSH → 安装 Node.js → 安装本工具 → 配置 Cookie → 后台常驻运行的全部命令。
+
+> ⚠️ 提示:iOS 会因省电策略挂起后台进程,建议在 iSH 中配合 `nohup` 运行,并保持「设置 → 通用 → 后台 App 刷新」开启。
 
 ### Linux / Windows
 
